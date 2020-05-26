@@ -11,7 +11,7 @@ function Chart() {
         const fetchAPI = async ()=>{
             setDailyData(await fetchDailyData())
         }
-        console.log(dailyData);
+        // console.log(dailyData);
         
         fetchAPI()
     })
