@@ -22,7 +22,7 @@ class App extends Component {
     }
 
     render() {
-        const {data} = this.state
+        const {data, country} = this.state
         return (
             <div className={styles.container}>
                 <Cards data={data}/>
